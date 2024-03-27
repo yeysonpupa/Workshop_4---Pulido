@@ -177,7 +177,9 @@ Por esto, se traspasa programación propuesta en CodeSYS a OpenPLC, tal como se 
 
 Figura 24: Lógica Ladder del tanque en OpenPLC.
 
-Ahora, revisando la documentación oficial de OpenPLC [4], se puede ver que tienen definidos los puertos de entradas y salidas digitales que sirven para ser utilizados en Arduino UNO. Por lo que, se asignan los puertos correspondientes a cada variable definida, tal como se muestra en la Figura 25.
+Ahora, revisando la documentación oficial de OpenPLC [4], se puede ver que tienen definidos los puertos de entradas y salidas digitales que sirven para ser utilizados en Arduino UNO. Por lo que, se asignan los puertos a cada variable definida, tal como se muestra en la Figura 25, donde para las entradas B1, B2 y B3 se asignan los puertos de entrada digital %IX0.0, %IX0.1 y %IX0.2 respectivamente, mientras que para las salidas H1, H2, H3 Y H4, se asignan los puertos de salida digital %QX0.0, %QX0.1, %QX0.2 y %QX0.3 respectivamente, dejando a H5 en el puerto de salida análoga %QW0.
+
+<img width="310" alt="Captura de pantalla 2024-03-27 184214" src="https://github.com/yeysonpupa/Workshop_4-Pulido/assets/101272542/2c555890-406b-4707-bef3-858773e4b107">
 
 Figura 25: Variables y puertos definidos en OpenPLC.
 
