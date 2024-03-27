@@ -173,9 +173,33 @@ Ya se ha comprobado el funcionamiento de la solución de manera simulada usando 
 
 Por esto, se traspasa programación propuesta en CodeSYS a OpenPLC, tal como se observa en la Figura 24.
 
+<img width="490" alt="Captura de pantalla 2024-03-27 171237" src="https://github.com/yeysonpupa/Workshop_4-Pulido/assets/101272542/f3bddef5-64e5-452c-9656-602247f9951f">
+
 Figura 24: Lógica Ladder del tanque en OpenPLC.
 
-Ahora...
+Ahora, revisando la documentación oficial de OpenPLC [4], se puede ver que tienen definidos los puertos de entradas y salidas digitales que sirven para ser utilizados en Arduino UNO. Por lo que, se asignan los puertos correspondientes a cada variable definida, tal como se muestra en la Figura 25.
+
+Figura 25: Variables y puertos definidos en OpenPLC.
+
+Una vez definida la lógica en OpenPLC, se estructura el circuito físico sobre una protoboard, haciendo uso de elementos sencillos como 3 pulsadores, que serviran como las variables de entrada B1, B2 y B3, y 5 diodos LEDs correspondientes a las salidas H1, H2, H3, H4 y H5. El circuito implementado se puede observar en la Figura 26.
+
+Figura 26: Prototipo físico del tanque en placa Arduino UNO.
+
+Sólo queda conectar el computador que contiene la lógica PLC a la placa Arduino UNO, con tal de cargar el programa y verificar el funcionamiento del prototipo. Trás realizar la conexión, se simulan todos los estados del tanque, tal como se observa en la Figura 27.
+
+Figura 27: Demostración de cada posible caso en el prototipo físico del tanque.
+
+## Video
+
+Todo el proceso de diseño, programación, prototipado y demostración presentado a lo largo de este caso de estudio es presentado en el siguiente video.
+
+## Conclusiones
+
+Con esta práctica, se pudo entender el proceso de automatización industrial, desde plantear un diseño hasta ofrecer una solución eficiente para monitorear los niveles de tanques de líquidos químicos, mejorando la gestión de recursos y reduciendo la generación de residuos líquidos.
+
+La utilización de compuertas lógicas para diseñar el circuito lógico permitió abordar el problema desde lo más básico posible, proporcionando un entendimiento claro y preciso del sistema de control, además, se reforzaron habilidades para simplificar la estructura del sistema, reduciendo la cantidad de componentes necesarios y mejorando la eficiencia del control.
+
+El uso de la Lógica Ladder para traducir el circuito lógico a programación PLC fue un paso crucial, demostrando como Ladder ayuda a generar automatización y control a partir de la configuración de unos cuantos carriles. Además, el posterior uso de dicha programación para validarlo mediante simulación HMI y prototipado físico en una placa Arduino UNO demuestra la viabilidad y funcionalidad de la solución propuesta, brindando una forma efectiva de comprobar su operación sin necesidad de requerir a grandes recursos especializados.
 
 ### Referencias 
 
@@ -184,3 +208,5 @@ Ahora...
 [2] Aranda, J. (2024). "Automatización & Control de Procesos - PLC – Programming – Ladder Logic (LD)". (Accedido Marzo 27, 2024). 
 
 [3] Copa-Data. (s. f. ). "¿Qué es una HMI?". [En línea]. Disponible en: https://www.copadata.com/es/productos/zenon-software-platform/visualizacion-control/que-significa-hmi-interfaz-humano-maquina-copa-data/#:~:text=HMI%20son%20las%20siglas%20de,para%20las%20de%20entornos%20industriales. (Accedido Marzo 27, 2024).
+
+[4] Autonomy. (2024, Enero 19). "2.4 Physical Addressing - Microcontroller-based boards". [En línea]. Disponible en: https://autonomylogic.com/docs/2-4-physical-addressing/ (Accedido Marzo 27, 2024).
