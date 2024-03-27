@@ -13,7 +13,7 @@ La representación visual de la pregunta problema se ve descrita en la Figura 1,
 
 De igual manera, se tienen 5 alertas visuales, cada una representando algún estado del tanque. Primero, H1 alerta cuando el nivel de llenado es correcto, H2 cuando el nivel es muy bajo, H3 cuando el nivel es muy alto, H4 cuando el tanque está vacío y H5 se activa en caso de un estado de señal que no tenga sentido debido a un sensor defectuoso, indicando un error.
 
-<img width="855" alt="Captura de pantalla 2024-03-27 120606" src="https://github.com/yeysonpupa/Workshop_4---Pulido/assets/101272542/c8143e92-9a20-4934-8aef-39a26729645a">
+<img width="1000" alt="Captura de pantalla 2024-03-27 120606" src="https://github.com/yeysonpupa/Workshop_4---Pulido/assets/101272542/c8143e92-9a20-4934-8aef-39a26729645a">
 
 Figura 1: Representación visual del planteamiento del problema [2].
 
@@ -160,10 +160,11 @@ Siguiendo la convención de colores que se usó en el circuito lógico definitiv
 
 En la Figura 22 se muestra la HMI diseñada, mientras que en la Figura 23 se demuestra la interfaz para cada estado del tanque.
 
-<img width="299" alt="Captura de pantalla 2024-03-27 162804" src="https://github.com/yeysonpupa/Workshop_4---Pulido/assets/101272542/280f8c79-44ba-41aa-8299-116bcd2e6938">
+<img width="500" alt="Captura de pantalla 2024-03-27 162804" src="https://github.com/yeysonpupa/Workshop_4---Pulido/assets/101272542/280f8c79-44ba-41aa-8299-116bcd2e6938">
 
 Figura 22: HMI del tanque.
 
+![Imagen1](https://github.com/yeysonpupa/Workshop_4---Pulido/assets/101272542/951324ac-9589-4727-bef9-cd9a1f846572)
 Figura 23: Demostración de cada posible caso en la HMI del tanque.
 
 ## Prototípo Físico
