@@ -209,6 +209,6 @@ El uso de la Lógica Ladder para traducir el circuito lógico a programación PL
 
 [2] Aranda, J. (2024). "Automatización & Control de Procesos - PLC – Programming – Ladder Logic (LD)". (Accedido Marzo 27, 2024). 
 
-[3] Copa-Data. (s. f. ). "¿Qué es una HMI?". [En línea]. Disponible en: https://www.copadata.com/es/productos/zenon-software-platform/visualizacion-control/que-significa-hmi-interfaz-humano-maquina-copa-data/#:~:text=HMI%20son%20las%20siglas%20de,para%20las%20de%20entornos%20industriales. (Accedido Marzo 27, 2024).
+[3] Copa-Data. (s. f. ). "¿Qué es una HMI?". [En línea]. Disponible en: https://www.copadata.com/es/productos/zenon-software-platform/visualizacion-control/que-significa-hmi-interfaz-humano-maquina-copa-data/#:~:text=HMI%20son%20las%20siglas%20de,para%20las%20de%20entornos%20industriales (Accedido Marzo 27, 2024).
 
 [4] Autonomy. (2024, Enero 19). "2.4 Physical Addressing - Microcontroller-based boards". [En línea]. Disponible en: https://autonomylogic.com/docs/2-4-physical-addressing/ (Accedido Marzo 27, 2024).
