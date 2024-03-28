@@ -102,7 +102,7 @@ Figura 13: Circuito Lógico del tanque.
 ![Imagen1](https://github.com/yeysonpupa/Workshop_4---Pulido/assets/101272542/61244953-9d1b-4566-83a6-79a3c2e4a0bb)
 Figura 14: Demostración de cada posible caso en el circuito Lógico del tanque.
 
-## Ladder Logic
+## Lógica Ladder
 
 Una vez realizado el circuito lógico, se puede traducir el comportamiento generado por cada compuerta lógica en Proteus a la Lógica Ladder con ayuda del software CodeSYS, el cual permite definir facilmente variables globales booleanas, lo cual se acomoda perfectamente a los requerimientos del sistema y las cuales se pueden ver definidas en la Figura 15.
 
