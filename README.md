@@ -180,22 +180,24 @@ Figura 24: Lógica Ladder del tanque en OpenPLC.
 Ahora, revisando la documentación oficial de OpenPLC [4], se puede ver que tienen definidos los puertos de entradas y salidas digitales que sirven para ser utilizados en Arduino UNO. Por lo que, se asignan los puertos a cada variable definida, tal como se muestra en la Figura 25, donde para las entradas B1, B2 y B3 se asignan los puertos de entrada digital %IX0.0, %IX0.1 y %IX0.2 respectivamente, mientras que para las salidas H1, H2, H3, H4 Y H5, se asignan los puertos de salida digital %QX0.0, %QX0.1, %QX0.2, %QX0.3 y %QX0.4.
 
 ![Captura de pantalla 2024-03-28 200303](https://github.com/yeysonpupa/Workshop_4-Pulido/assets/101272542/7958c212-2cb7-4a95-bf0a-58f0a0488c28)
-
 Figura 25: Variables y puertos definidos en OpenPLC.
 
-Una vez definida la lógica en OpenPLC, se estructura el circuito físico sobre una protoboard, haciendo uso de elementos sencillos como 3 pulsadores, que serviran como las variables de entrada B1, B2 y B3, y 5 diodos LEDs correspondientes a las salidas H1, H2, H3, H4 y H5. El circuito implementado se puede observar en la Figura 26.
+Una vez definida la lógica en OpenPLC, se estructura el circuito físico sobre una protoboard, haciendo uso de elementos sencillos como 3 pulsadores, que serviran como las variables de entrada B1, B2 y B3, y 5 diodos LEDs correspondientes a las salidas H1, H2, H3, H4 y H5. El planteamiento del circuito realizado en TinkerCAD se expone en la Figura 26 y la versión final implementada se puede observar en la Figura 27.
+
+![Captura de pantalla 2024-03-28 202802](https://github.com/yeysonpupa/Workshop_4-Pulido/assets/101272542/313340e5-355e-4e69-8f93-d0712756025b)
+Figura 27: Prototipo físico del tanque en TinkerCAD.
 
 ![image](https://github.com/yeysonpupa/Workshop_4-Pulido/assets/101272542/f19cde58-ef60-4462-8676-7210e151a6a4)
+Figura 27: Prototipo físico del tanque en placa Arduino UNO.
 
-Figura 26: Prototipo físico del tanque en placa Arduino UNO.
+Sólo queda conectar el computador que contiene la lógica PLC a la placa Arduino UNO, con tal de cargar el programa y verificar el funcionamiento del prototipo. Trás realizar la conexión, se simulan todos los estados del tanque, tal como se observa en la Figura 28.
 
-Sólo queda conectar el computador que contiene la lógica PLC a la placa Arduino UNO, con tal de cargar el programa y verificar el funcionamiento del prototipo. Trás realizar la conexión, se simulan todos los estados del tanque, tal como se observa en la Figura 27.
-
-Figura 27: Demostración de cada posible caso en el prototipo físico del tanque.
+![Captura de pantalla 2024-03-28 203020](https://github.com/yeysonpupa/Workshop_4-Pulido/assets/101272542/d92367b3-afd8-4d31-8d26-74910690b999)
+Figura 28: Demostración de cada posible caso en el prototipo físico del tanque.
 
 ## Video
 
-Todo el proceso de diseño, programación, prototipado y demostración presentado a lo largo de este caso de estudio es presentado en el siguiente video.
+Todo el proceso de diseño, programación, prototipado y demostración presentado a lo largo de este caso de estudio es presentado en el siguiente video: https://youtu.be/QY4bSzoiF0I
 
 ## Conclusiones
 
